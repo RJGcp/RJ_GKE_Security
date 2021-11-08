@@ -47,7 +47,7 @@ Defaults will be used for these, if not overridden at runtime.
 variable "bastion_machine_type" {
   description = "The instance size to use for your bastion instance."
   type        = string
-  default     = "f1-micro"
+  default     = "n1-standard-1"
 }
 
 variable "bastion_tags" {
